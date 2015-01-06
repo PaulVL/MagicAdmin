@@ -1,0 +1,4 @@
+magicadmin
+==========
+
+MagicAdmin Package
