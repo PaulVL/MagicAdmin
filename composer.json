@@ -1,0 +1,29 @@
+{
+    "name": "paulvl/magicadmin",
+    "description": "Magic Admin package for admin module!",
+    "keywords": ["laravel"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Paul Vidal",
+            "email": "paul.vidal.lujan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/models",
+            "src/views",
+            "src/config",
+            "src/migrations"
+        ],
+        "psr-0": {
+            "PaulVL\\MagicAdmin": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
